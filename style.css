@@ -222,12 +222,36 @@ h2 {
   border-radius: 15px;
   margin: auto;
 }
-
-#gallery .photo img:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+/* About */
+#description .container .lead .bottom-line {
+  width: 35rem;
 }
 
-/* Footer */
+#description .container h2 {
+  font-size: 1.8rem;
+  padding: 10px;
+}
+
+#description .container .lead p {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+#grid .grid-triplet .photo img {
+  height: 100%;
+  width: 100%;
+}
+
+#grid .grid-triplet .photo {
+  padding: 10px 5px;
+}
+
+#grid .grid-triplet {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+}
+
 /* Footer */
 #footer {
   background-color: #f2f2f2;
