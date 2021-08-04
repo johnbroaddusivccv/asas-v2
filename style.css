@@ -456,7 +456,8 @@ h2 {
   }
 
   .hero-about::before,
-  .hero-events::before {
+  .hero-events::before,
+  .hero-photos::before {
     height: 50vh;
   }
 
@@ -537,14 +538,5 @@ h2 {
 
   #grid .grid-triplet {
     grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-/* Iphone 11 */
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-  #nav .container h1 {
-    font-size: 1.5rem;
-    padding-bottom: 8px;
-    text-align: center;
   }
 }
