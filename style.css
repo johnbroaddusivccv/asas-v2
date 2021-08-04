@@ -436,8 +436,9 @@ h2 {
   }
 
   #nav .container h1 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding-bottom: 8px;
+    text-align: center;
   }
 
   #footer .hot-links {
