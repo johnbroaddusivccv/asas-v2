@@ -429,67 +429,6 @@ h2 {
   }
 }
 
-@media (max-width: 414px) {
-  #nav .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #nav .container h1 {
-    font-size: 1rem;
-    padding-bottom: 8px;
-    text-align: center;
-  }
-
-  #footer .hot-links {
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    padding: 10px;
-  }
-
-  #footer .final-footer .center {
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .hero {
-    height: 50vh;
-  }
-
-  .hero::before,
-  .hero-about::before,
-  .hero-events::before {
-    height: 50vh;
-  }
-
-  .hero-photos::before {
-    height: 55vh;
-  }
-
-  #description .container .lead h2 {
-    text-align: center;
-    font-size: 1.3rem;
-  }
-  #description .container .lead p {
-    font-size: 1.1rem;
-  }
-
-  #description .container .lead ul li {
-    padding: 8px;
-  }
-
-  #gallery {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  #grid .grid-triplet {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
 @media (max-width: 375px) {
   #nav .container {
     display: flex;
@@ -517,7 +456,8 @@ h2 {
   }
 
   .hero-about::before,
-  .hero-events::before {
+  .hero-events::before,
+  .hero-photos::before {
     height: 50vh;
   }
 
