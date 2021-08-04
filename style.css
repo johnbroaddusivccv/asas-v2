@@ -408,10 +408,6 @@ h2 {
     height: 50vh;
   }
 
-  .hero-photos::before {
-    height: 50vh;
-  }
-
   #description .container .lead h2 {
     text-align: center;
     font-size: 1.3rem;
