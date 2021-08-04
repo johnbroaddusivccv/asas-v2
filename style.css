@@ -404,7 +404,8 @@ h2 {
   }
 
   .hero-about::before,
-  .hero-events::before {
+  .hero-events::before,
+  .hero-photos::before {
     height: 50vh;
   }
 
@@ -516,7 +517,8 @@ h2 {
   }
 
   .hero-about::before,
-  .hero-events::before {
+  .hero-events::before,
+  .hero-photos::before {
     height: 50vh;
   }
 
