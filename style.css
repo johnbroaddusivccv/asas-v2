@@ -430,9 +430,6 @@ h2 {
   #grid .grid-triplet {
     grid-template-columns: repeat(1, 1fr);
   }
-  .bottom-line {
-    width: 50%;
-  }
 }
 
 @media (max-width: 375px) {
@@ -488,9 +485,6 @@ h2 {
   #grid .grid-triplet {
     grid-template-columns: repeat(1, 1fr);
   }
-  .bottom-line {
-    width: 50%;
-  }
 }
 
 @media (max-width: 320px) {
@@ -545,8 +539,5 @@ h2 {
 
   #grid .grid-triplet {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .bottom-line {
-    width: 50%;
   }
 }
