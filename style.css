@@ -455,6 +455,11 @@ h2 {
     justify-content: center;
   }
 
+  .hero {
+    height: 50vh;
+  }
+
+  .hero::before,
   .hero-about::before,
   .hero-events::before {
     height: 50vh;
