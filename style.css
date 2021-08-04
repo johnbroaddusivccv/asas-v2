@@ -404,9 +404,12 @@ h2 {
   }
 
   .hero-about::before,
-  .hero-events::before,
-  .hero-photos::before {
+  .hero-events::before {
     height: 50vh;
+  }
+
+  .hero-photos::before {
+    height: 75vh;
   }
 
   #description .container .lead h2 {
