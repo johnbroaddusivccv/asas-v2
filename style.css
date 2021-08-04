@@ -525,7 +525,7 @@ h2 {
   }
 
   .hero-photos::before {
-    height: 75vh;
+    height: 60vh;
   }
 
   #description .container .lead h2 {
