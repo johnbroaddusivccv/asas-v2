@@ -403,6 +403,18 @@ h2 {
     justify-content: center;
   }
 
+  .hero {
+    height: 50vh;
+  }
+
+  .hero .content h1 {
+    font-size: 42px;
+  }
+
+  .hero::before {
+    height: 50vh;
+  }
+
   .hero-about::before,
   .hero-events::before,
   .hero-photos::before {
