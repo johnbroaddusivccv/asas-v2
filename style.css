@@ -465,7 +465,7 @@ h2 {
   }
 
   .hero-photos::before {
-    height: 25%;
+    height: 50vh;
   }
 
   #description .container .lead h2 {
@@ -528,7 +528,7 @@ h2 {
   }
 
   .hero-photos::before {
-    height: 50vh;
+    height: 60vh;
   }
 
   #description .container .lead h2 {
