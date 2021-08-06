@@ -325,7 +325,7 @@ h2 {
 
 #officers .container .officer img {
   width: 100%;
-  height: 75vh;
+  height: 70vh;
 }
 
 #officers .container .officer p,
@@ -477,6 +477,10 @@ h2 {
   #description .container .lead .bottom-line {
     width: 20rem;
   }
+
+  #officers .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 375px) {
@@ -549,6 +553,9 @@ h2 {
   #description .container .lead .bottom-line {
     width: 20rem;
   }
+  #officers .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 320px) {
@@ -612,6 +619,9 @@ h2 {
   }
 
   #grid .grid-triplet {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #officers .container {
     grid-template-columns: repeat(1, 1fr);
   }
 }
