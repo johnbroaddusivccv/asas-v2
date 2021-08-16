@@ -249,11 +249,12 @@ h2 {
 }
 
 #gallery .photo img {
-  height: 100%;
+  height: 60vh;
   width: 100%;
   padding: 10px;
   border-radius: 15px;
   margin: auto;
+  object-fit: cover;
 }
 /* About */
 #description .container .lead .bottom-line {
@@ -325,7 +326,8 @@ h2 {
 
 #officers .container .officer img {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
+  object-fit: cover;
 }
 
 #officers .container .officer p,
@@ -556,6 +558,9 @@ h2 {
   #officers .container {
     grid-template-columns: repeat(1, 1fr);
   }
+  #footer .final-footer ul li {
+    font-size: 0.85rem;
+  }
 }
 
 @media (max-width: 320px) {
@@ -623,5 +628,8 @@ h2 {
   }
   #officers .container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  #footer .final-footer ul li {
+    padding: 0 0.2rem;
   }
 }
